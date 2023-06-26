@@ -1,0 +1,10 @@
+.idea
+.vscode
+.npm_cache/
+.DS_Store
+
+.parcel-cache
+dist
+node_modules
+
+.env

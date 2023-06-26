@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "lib": ["ESNext", "dom"],
+    "outDir": "dist"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/dist/**/*"]
+}
